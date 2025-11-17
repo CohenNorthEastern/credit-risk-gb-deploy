@@ -4,7 +4,7 @@ import pandas as pd
 import json
 import os
 
-# ---- File paths (using YOUR filenames) ----
+# ---- File paths ----
 
 MODEL_PATH = "Credit Risk Model.joblib"
 FEATURES_PATH = "Feature Names from Pipeline.json"
@@ -12,7 +12,7 @@ FEATURES_PATH = "Feature Names from Pipeline.json"
 if not os.path.exists(MODEL_PATH):
     raise FileNotFoundError(f"Could not find model file at {MODEL_PATH}")
 
-# Load the gradient boosting model
+# Load gradient boosting model
 model = joblib.load(MODEL_PATH)
 
 # Load the feature names (column order used during training)
