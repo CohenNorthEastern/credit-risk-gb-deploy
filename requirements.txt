@@ -1,2 +1,3 @@
 numpy<2.0.0
-scikit-learn<1.6.0
+scikit-learn==1.2.2  # (Or whichever version you settled on)
+huggingface-hub<0.25.0
