@@ -5,7 +5,6 @@ import json
 import os
 
 # ---- File paths ----
-# Make sure these exact filenames match what you uploaded
 MODEL_PATH = "Credit Risk Model.joblib"
 FEATURES_PATH = "Feature Names from Pipeline.json"
 
@@ -87,4 +86,4 @@ demo = gr.Interface(
 )
 
 if __name__ == "__main__":
-    demo.
+    demo.launch()
