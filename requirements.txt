@@ -1,9 +1,6 @@
-# Match training environment EXACTLY
 numpy==1.26.4
 scikit-learn==1.6.1
-
-# Other dependencies
-pandas==2.2.2
 joblib==1.4.2
-gradio==4.19.2
+pandas==2.2.2
+gradio
 huggingface_hub<1.0.0
