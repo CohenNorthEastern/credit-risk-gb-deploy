@@ -1,4 +1,10 @@
-numpy==2.0.2
-scikit-learn==1.6.1
-gradio>=5.0.0
-joblib
+---
+title: Credit Risk Model Deployment
+emoji: 📊
+colorFrom: blue
+colorTo: purple
+sdk: gradio
+sdk_version: "5.5.0"
+app_file: app.py
+pinned: false
+---
