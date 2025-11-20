@@ -8,7 +8,3 @@ sdk_version: "5.5.0"  <-- CHANGE THIS
 app_file: app.py
 pinned: false
 ---
-
-# Credit Risk Model Deployment
-
-This is a Gradient Boosting credit risk classifier deployed via Hugging Face Spaces using Gradio and GitHub Actions CI/CD.
